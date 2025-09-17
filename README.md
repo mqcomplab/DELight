@@ -2,7 +2,7 @@
 
 This repository contains the code for the DELight method, which addresses the challenge of imbalanced heterogeneous targets in machine learning tasks. The method is designed to improve model performance by effectively grouping and handling imbalanced data.
 
-## Finger Generation and Dataset Splitting
+## Fingerprint Generation and Dataset Splitting
 First step is `gen_fingerprints.py` to generate fingerprints for the dataset. This script processes the input data and creates unique fingerprints that represent different groups within the dataset.
 
 Second step is use `split.py` to split the dataset into training and testing sets. This script takes the original dataset and divides it into three parts, ensuring that each set is representative of the overall data distribution.
